@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 import User from "../models/user";
-import { log } from "console";
 
 const createCurrentUser = async (req: Request, res: Response) => {
   // 1. check if the user exist
