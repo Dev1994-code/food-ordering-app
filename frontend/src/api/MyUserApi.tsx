@@ -26,7 +26,7 @@ export const useCreateMyUser = () => {
     isLoading,
     isError,
     isSuccess,
-  } = useMutation(createMyUserRequest);
+  } = useMutation(createMyUserRequest); //This line utilizes the useMutation hook to create a createUser function, which can be called to trigger the mutation (i.e., the creation of a user).
 
   return {
     createUser,
