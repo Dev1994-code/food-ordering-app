@@ -4,6 +4,9 @@ import HomePage from "./pages/HomePage";
 import AuthCallbackPage from "./pages/AuthCallbackPage";
 import UserProfilePage from "./pages/UserProfilePage.tsx";
 
+// export const u = 12;
+// console.log("exporting u really screws up HMR :(", u);
+
 const AppRoutes = () => {
   return (
     <Routes>
